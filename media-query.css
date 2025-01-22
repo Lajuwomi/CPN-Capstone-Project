@@ -1,0 +1,182 @@
+@media only screen and (min-width: 320px) and (max-width: 380px) {
+    nav {
+        padding: 5px 10px;
+        height: 35px;
+        display: flex;
+    }
+    
+    
+    nav #lajuwomi {
+       font-size: 10px;
+    
+    }
+    nav #womi {
+        font-size: 16px;
+    }
+    
+    nav ul {
+        display: none;
+    }
+    
+   nav #menu-button {
+    display: block;
+    width: 18px;
+   }
+
+    #menu {
+        margin-top: 60px;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 100vw;
+        height: 100vh;
+   }
+   #menu.flex {
+    display: flex;
+   }
+
+   #menu a {
+    margin: 10px auto;
+    font-size: 26px;
+    text-decoration: none;
+    color: #252525d5;
+    width: 100vw;
+    text-align: center;
+   }
+
+   #menu a:hover {
+    text-decoration: 6px underline blue;
+    background-color: blue;
+    color: blue;
+   }
+
+   .hero-section {
+    font-size: 10px;
+    margin-top: 60px;
+   }
+   .hero-section h2{
+    font-size: 25px;
+   }
+}
+
+
+/* Large mobile phone */
+@media only screen and (min-width: 425px) and (max-width: 480px) {
+    nav {
+        padding: 5px 10px;
+        height: 35px;
+        display: flex;
+    }
+    
+    
+    nav #lajuwomi {
+       font-size: 10px;
+    
+    }
+    nav #womi {
+        font-size: 16px;
+    }
+    
+    nav ul {
+        display: none;
+    }
+    
+   nav #menu-button {
+    display: block;
+    width: 18px;
+   }
+
+    #menu {
+        margin-top: 60px;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 100vw;
+        height: 100vh;
+   }
+   #menu.flex {
+    display: flex;
+   }
+
+   #menu a {
+    margin: 10px auto;
+    font-size: 26px;
+    text-decoration: none;
+    color: #252525d5;
+    width: 100vw;
+    text-align: center;
+   }
+
+   #menu a:hover {
+    text-decoration: 6px underline blue;
+    background-color: blue;
+    color: blue;
+   }
+
+   .hero-section {
+    font-size: 15px;
+    margin-top: 100px;
+   }
+   .hero-section h2{
+    font-size: 35px;
+   }
+}
+/* Large Mobile phone ends */
+
+/* Tablet screen */
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+    nav {
+        padding: 5px 10px;
+        height: 35px;
+        display: flex;
+    }
+    
+    
+    nav #lajuwomi {
+       font-size: 10px;
+    
+    }
+    nav #womi {
+        font-size: 16px;
+    }
+    
+    nav ul {
+        display: none;
+    }
+    
+   nav #menu-button {
+    display: block;
+    width: 18px;
+   }
+
+    #menu {
+        margin-top: 60px;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 100vw;
+        height: 100vh;
+   }
+   #menu.flex {
+    display: flex;
+   }
+
+   #menu a {
+    margin: 10px auto;
+    font-size: 26px;
+    text-decoration: none;
+    color: #252525d5;
+    width: 100vw;
+    text-align: center;
+   }
+
+   #menu a:hover {
+    text-decoration: 6px underline blue;
+    background-color: blue;
+    color: blue;
+   }
+}
+

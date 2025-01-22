@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: ghostwhite;
+    height: 70px;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.349);
+}
+
+nav a {
+    color: #252525d5;
+    text-decoration: none;
+}
+nav #lajuwomi {
+    font-family: "Playwrite IN", serif;
+    word-spacing: -2px;
+
+}
+nav #womi {
+    font-family: "Playwrite VN", serif;
+    font-size: 22px;
+    color: #252525a2;
+}
+
+nav #menu-button{
+    display: none;
+    border: none;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    font-size: 20px;
+    background-color: ghostwhite;
+    box-shadow: 1px 1px 3px 1px black;
+    padding: 5px 10px;
+    transition: ease-in-out .2s;
+}
+nav ul li a:hover {
+    box-shadow: 1px 1px 3px 1px blue;
+    color: blue;
+
+}
+#menu {
+    display: none;
+}
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 180px;
+    color: #252525d5;
+}
+.hero-section h1{
+
+}
+.hero-section h2{
+    font-size: 50px;
+}
